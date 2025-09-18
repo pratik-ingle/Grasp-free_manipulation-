@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gripper-Free Contact-Based Manipulation | ICRA 2026 Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#format">Format</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#call">Call</a></li>
+                <li><a href="#organizers">Organizers</a></li>
+                <li><a href="#venue">Venue</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <header class="header">
+            <div class="header-bg"></div>
+            <h1 class="main-title">Grasp-Free Contact-Based Manipulation</h1>
+            <!-- <h2 class="subtitle">Surface-Based Paradigms for Next-Generation Robotic Systems</h2>-->
+            <h2 class="subtitle">at the 2024 IEEE International Conference<br>
+                on Robotics and Automation (ICRA 2026),<br>
+                Vienna, Austria</h2>
+            <!-- <span class="badge">ICRA 2026 Workshop</span> -->
+        </header>
+        
+        <section id="about" class="section">
+            <h2 class="section-title">About</h2>
+            <!-- <p class="text">Traditional robotic manipulation relies predominantly on arm-and-gripper systems that excel in structured environments but face significant limitations when handling delicate, irregular, or multiple objects simultaneously. This workshop explores manipulation surfaces that utilize arrays of actuators, deformable platforms, or coordinated surface motions to transport, orient, and manipulate objects through distributed contact rather than discrete gripping points.</p>
+            <p class="text">These systems demonstrate remarkable advantages including gentle handling of fragile items, simultaneous manipulation of multiple objects, and robust performance with soft or irregular geometries. The workshop will convene leading researchers from academia and industry to discuss cutting-edge innovations in hardware design, sensing architectures, control algorithms, and real-world applications spanning logistics automation, food processing, and medical robotics.</p> -->
+            <p class="text">Advanced manufacturing, logistics automation, and laboratory robotics increasingly require versatile manipulation capabilities that can handle diverse object types, sizes, and material properties simultaneously. The growing complexity of industrial processes demands manipulation systems that can adapt to changing requirements while maintaining precision and reliability across varied operational contexts.
+                Current automation faces fundamental scalability challenges when processing multiple objects concurrently, handling fragile or deformable materials, and adapting to irregular geometries. The reproducibility crisis in automated handling stems largely from rigid system architectures designed for specific tasks with limited adaptability to evolving operational requirements and object variability.
+                Recent advances in distributed actuation, smart materials, surface-based sensing, and decentralized control algorithms present opportunities to address these challenges through manipulation surfaces - systems where arrays of actuators create coordinated surface motions for object transport and manipulation. However, critical technical barriers remain unresolved.
+                Specific challenges include achieving full six-degree-of-freedom manipulation through distributed contact, developing robust sensing architectures that can simultaneously track multiple objects across large surfaces, creating scalable control algorithms for coordinating hundreds of actuators, and establishing standardized interfaces between manipulation surfaces and existing automation infrastructure. Additional challenges encompass managing complex object dynamics on deformable surfaces, implementing reliable distributed sensing without centralized bottlenecks, and bridging the simulation-to-reality gap for learning-based control strategies.
+                This workshop will bring together researchers advancing hardware mechanisms, distributed control theory, surface-integrated sensing, and industrial applications to create synergies toward overcoming these fundamental challenges and accelerating the practical deployment of manipulation surface technologies.</p>
+        </section>
+        
+        <section id="format" class="section">
+            <h2 class="section-title">Format</h2>
+            <p class="text text-center" style="margin-bottom: 30px;">Half-day workshop featuring hybrid participation</p>
+            <div class="schedule-grid">
+                <div class="schedule-time">15 min</div>
+                <div class="schedule-event">Opening session and fundamentals overview by Organizers</div>
+
+                <div class="schedule-time">90 min</div>
+                <div class="schedule-event">Invited presentations (4 expert talks)</div>
+
+                <div class="schedule-time">30 min</div>
+                <div class="schedule-event">Interactive panel discussion</div>
+
+                <div class="schedule-time">20 min</div>
+                <div class="schedule-event">Flash talks for accepted posters</div>
+
+                <div class="schedule-time">30 min</div>
+                <div class="schedule-event">Networking and poster session</div>
+
+                <div class="schedule-time">15 min</div>
+                <div class="schedule-event">Closing synthesis</div>
+            </div>
+        </section>
+        
+        <section id="speakers" class="section">
+            <h2 class="section-title">Speakers</h2>
+            <div class="speakers-grid">
+                <div class="speaker-card">
+                    <div class="speaker-image"></div>
+                    <div class="speaker-name">To be announced</div>
+                    <div class="speaker-affiliation">Speaker 1</div>
+                    <p class="speaker-bio">Brief bio about Speaker 1 highlighting expertise and research interests.</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image"></div>
+                    <div class="speaker-name">To be announced</div>
+                    <div class="speaker-affiliation">Speaker 2</div>
+                    <p class="speaker-bio">Brief bio about Speaker 2 highlighting expertise and research interests.</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image"></div>
+                    <div class="speaker-name">To be announced</div>
+                    <div class="speaker-affiliation">Speaker 3</div>
+                    <p class="speaker-bio">Brief bio about Speaker 3 highlighting expertise and research interests.</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image"></div>
+                    <div class="speaker-name">To be announced</div>
+                    <div class="speaker-affiliation">Speaker 4</div>
+                    <p class="speaker-bio">Brief bio about Speaker 4 highlighting expertise and research interests.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="call" class="section">
+            <h2 class="section-title">Call for Extended Abstracts</h2>
+            <div class="highlight-box">
+                <p class="text">We invite submissions of extended abstracts (2-4 pages) presenting novel research, work-in-progress, or position papers related to gripper-free manipulation systems.</p>
+
+                <p class="text"><strong style="color: #2d3748; font-weight: 400;">Topics of interest include:</strong></p>
+                <ul class="list">
+                    <li class="list-item">Novel actuation mechanisms for surface-based manipulation</li>
+                    <li class="list-item">Control algorithms for distributed contact systems</li>
+                    <li class="list-item">Sensing and perception for manipulation surfaces</li>
+                    <li class="list-item">Applications in logistics, food processing, and medical robotics</li>
+                    <li class="list-item">Soft and deformable manipulation surfaces</li>
+                    <li class="list-item">Multi-object parallel manipulation strategies</li>
+                </ul>
+                
+                <p class="deadline">Submission deadline: To be announced</p>
+                <p class="deadline">Notification: To be announced</p>
+                
+                <p class="text">Selected abstracts will be presented as posters with accompanying flash talks. Submissions should follow the IEEE conference format.</p>
+            </div>
+        </section>
+        
+        <section id="organizers" class="section">
+            <h2 class="section-title">Organizers</h2>
+            <div class="organizer-grid">
+                <div class="organizer">
+                    <div class="organizer-image"></div>
+                    <div class="organizer-details">
+                        <div class="organizer-name">Dr. Kasper Støy</div>
+                        <div class="organizer-info">
+                            IT University of Copenhagen<br>
+                            <a href="mailto:ksty@itu.dk" class="link">ksty@itu.dk</a>
+                        </div>
+                        <p class="organizer-bio">Full Professor. Interests: modular robots, lab automation, multi-robot & swarm robotics, evolutionary robotics, robot learning, and unconventional robots.</p>
+                    </div>
+                </div>
+                
+                <div class="organizer">
+                    <div class="organizer-image"></div>
+                    <div class="organizer-details">
+                        <div class="organizer-name">Dr. Andrés Faiña</div>
+                        <div class="organizer-info">
+                            IT University of Copenhagen<br>
+                            <a href="mailto:afai@itu.dk" class="link">afai@itu.dk</a>
+                        </div>
+                        <p class="organizer-bio">Associate Professor. Interests: modular robots, evolutionary robotics, liquid handling robots, and automatic design of robots.</p>
+                    </div>
+                </div>
+
+                <!-- <div class="organizer">
+                    <div class="organizer-image"></div>
+                    <div class="organizer-details">
+                        <div class="organizer-name">Dr. Rodrigo Moreno</div>
+                        <div class="organizer-info">
+                            IT University of Copenhagen<br>
+                            <a href="mailto:prin@itu.dk" class="link">prin@itu.dk</a>
+                        </div>
+                        <p class="organizer-bio">Assistant Professor. Interests: modular robots, artificial intelligence, emergence, lab automation, and evolutionary robotics.</p>
+                    </div>
+                </div>
+
+                <div class="organizer">
+                    <div class="organizer-image"></div>
+                    <div class="organizer-details">
+                        <div class="organizer-name">Dr. Payam Zahadat</div>
+                        <div class="organizer-info">
+                            IT University of Copenhagen<br>
+                            <a href="mailto:prin@itu.dk" class="link">prin@itu.dk</a>
+                        </div>
+                        <p class="organizer-bio">Associate Professor. Interests: swarm and evolutionary robotics, collective intelligence, bio-inspired computation, and self-organizing/complex systems.</p>
+                    </div>
+                </div> -->
+
+                <div class="organizer">
+                    <div class="organizer-image"></div>
+                    <div class="organizer-details">
+                        <div class="organizer-name">Pratik Ingle</div>
+                        <div class="organizer-info">
+                            IT University of Copenhagen<br>
+                            <a href="mailto:prin@itu.dk" class="link">prin@itu.dk</a>
+                        </div>
+                        <p class="organizer-bio">PhD Student. Interests: swarm robotics, collective behaviour, multi-agent systems, evolutionary robotics, bio-inspired computation, and reinforcement learning.</p>
+                    </div>
+                </div>
+                
+                <!-- <div class="organizer">
+                    <div class="organizer-image"></div>
+                    <div class="organizer-details">
+                        <div class="organizer-name">Bailey Dacre</div>
+                        <div class="organizer-info">
+                            IT University of Copenhagen<br>
+                            <a href="mailto:bdac@itu.dk" class="link">bdac@itu.dk</a>
+                        </div>
+                        <p class="organizer-bio">PhD Student. Interests: novel robotic design, modular robotics, evolutionary robotics, and lab automation.</p>
+                    </div>
+                </div>
+                
+                <div class="organizer">
+                    <div class="organizer-image"></div>
+                    <div class="organizer-details">
+                        <div class="organizer-name">Nicolas Bessone</div>
+                        <div class="organizer-info">
+                            IT University of Copenhagen<br>
+                            <a href="mailto:nbes@itu.dk" class="link">nbes@itu.dk</a>
+                        </div>
+                        <p class="organizer-bio">PhD Student. Interests: AI, bio-inspired computation, collective behavior, decentralized systems, emergence, evolutionary algorithms, and evolutionary robotics.</p>
+                    </div>
+                </div> -->
+                
+                
+            </div>
+        </section>
+        
+        <section id="venue" class="section">
+            <h2 class="section-title">Venue</h2>
+            <div class="venue-info">
+                <p class="text"><strong>ICRA 2026</strong><br>
+                IEEE International Conference on Robotics and Automation, Vienna, Austria<br>
+                Exact location and dates to be announced</p>
+                <p class="text" style="margin-top: 20px; font-size: 0.95rem;">The workshop will support both in-person and remote participation through livestreaming and interactive online platforms.</p>
+            </div>
+        </section>
+    </div>
+    
+    <div class="logos-section">
+        <div class="container">
+            <div class="logo-group">
+                <div class="logo-title">Organised by</div>
+                <div class="logo-placeholder"></div>
+                <div class="logo-placeholder"></div>
+            </div> 
+            
+            <!-- <div class="logo-group">
+                <div class="logo-title">Supported by</div>
+                <div class="logo-placeholder"></div>
+                <div class="logo-placeholder"></div>
+                <div class="logo-placeholder"></div>
+            </div> -->
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>Contact: <a href="mailto:ksty@itu.dk" class="link">prin@itu.dk</a> · IT University of Copenhagen</p>
+    </footer>
+</body>
+</html>
