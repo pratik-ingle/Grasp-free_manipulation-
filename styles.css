@@ -97,7 +97,7 @@ body {
     right: 0;
     bottom: 0;
     background: linear-gradient(rgba(255,255,255,0.15), rgba(250,250,248,0.15)),
-                url('image1.png');
+                url('images/image1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
